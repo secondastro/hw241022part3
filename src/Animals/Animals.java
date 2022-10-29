@@ -11,6 +11,7 @@ public abstract class Animals {
         this.age = ValidationUtils.validationAge(birthYear);
 
     }
+
     public abstract void eat();
 
     public abstract void sleep();

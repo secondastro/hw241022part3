@@ -50,7 +50,7 @@ public class Main {
         System.out.println(gull.equals(albatross));
 
         Animals[] animals = {giraffe, gazelle, horse, hyena, bear, tiger, frog, snake, peacock, penguin, dodo, gull, albatross};
-        for (int i = 0; i < animals.length; i++) {
+        for (int i = 0; i <  animals.length; i++) {
             for (int j = i+1; j < animals.length; j++) {
                 if (animals[i].equals(animals[j])) {
                     System.out.println("Найден дубликат: " + animals[i]);
